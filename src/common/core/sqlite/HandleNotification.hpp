@@ -27,7 +27,7 @@
 #include "HandleRelated.hpp"
 #include "Lock.hpp"
 #include "SQLiteDeclaration.h"
-#include "Tag.hpp"
+#include "../Tag.hpp"
 #include "UniqueList.hpp"
 #include "WCDBOptional.hpp"
 #include <functional>
