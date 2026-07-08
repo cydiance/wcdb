@@ -23,12 +23,12 @@
  */
 
 #include "JoinBridge.h"
-#include "Column.hpp"
-#include "Expression.hpp"
-#include "Join.hpp"
-#include "ObjectBridge.hpp"
-#include "TableOrSubquery.hpp"
-#include "WinqBridge.hpp"
+#include "../../../common/winq/identifier/Column.hpp"
+#include "../../../common/winq/identifier/Expression.hpp"
+#include "../../../common/winq/identifier/Join.hpp"
+#include "../../base/ObjectBridge.hpp"
+#include "../../../common/winq/identifier/TableOrSubquery.hpp"
+#include "../WinqBridge.hpp"
 
 CPPJoin WCDBJoinCreateWithTableOrSubquery(CPPTableOrSubquery query)
 {
