@@ -23,6 +23,7 @@
  */
 
 #include "../WINQ.h"
+#include "../identifier/Join.hpp"
 
 namespace WCDB {
 
@@ -67,7 +68,7 @@ StatementSelect& StatementSelect::from(const Join& join)
 {
     Syntax::SelectCore& core = currentCore();
     core.tableOrSubqueries.clear();
-    core.joinClause = join;
+    core.joinClause = join.syntax();
     return *this;
 }
 
