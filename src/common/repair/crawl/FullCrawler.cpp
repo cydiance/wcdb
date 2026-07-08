@@ -24,7 +24,7 @@
 
 #include "FullCrawler.hpp"
 #include "Assemble.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "MasterItem.hpp"
 #include "Page.hpp"
 #include "SequenceCrawler.hpp"

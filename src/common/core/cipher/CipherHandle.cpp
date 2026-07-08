@@ -23,7 +23,7 @@
  */
 
 #include "CipherHandle.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "FileManager.hpp"
 #include "SQLite.h"
 #include <string.h>

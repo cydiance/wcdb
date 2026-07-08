@@ -23,8 +23,8 @@
  */
 
 #include "Global.hpp"
-#include "..\..\base\Assertion.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Assertion.hpp"
+#include "../../base/Notifier.hpp"
 #include "SQLite.h"
 #include <fcntl.h>
 

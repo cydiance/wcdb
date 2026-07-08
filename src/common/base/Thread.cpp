@@ -24,7 +24,7 @@
 
 #include "Thread.hpp"
 #include "Assertion.hpp"
-#include "..\platform\CrossPlatform.h"
+#include "../platform/CrossPlatform.h"
 #include "Notifier.hpp"
 #include "WCDBError.hpp"
 #include <cstring>

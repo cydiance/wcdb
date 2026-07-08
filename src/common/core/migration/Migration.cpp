@@ -23,11 +23,11 @@
  */
 
 #include "Migration.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CompressionConst.hpp"
 #include "HandleStatement.hpp"
-#include "..\InnerHandle.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../InnerHandle.hpp"
+#include "../../base/Notifier.hpp"
 #include "StringView.hpp"
 #include "WCDBError.hpp"
 

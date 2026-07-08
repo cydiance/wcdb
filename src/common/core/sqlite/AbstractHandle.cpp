@@ -23,9 +23,9 @@
  */
 
 #include "AbstractHandle.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Path.hpp"
 #include "SQLite.h"
 #include "StringView.hpp"

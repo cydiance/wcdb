@@ -23,11 +23,11 @@
  */
 
 #include "MigratingStatementDecorator.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CommonCore.hpp"
 #include "SQLite.h"
 #include "StringView.hpp"
-#include "..\..\winq\WINQ.h"
+#include "../../winq/WINQ.h"
 
 namespace WCDB {
 

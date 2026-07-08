@@ -23,11 +23,11 @@
  */
 
 #include "Wal.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
 #include "FileManager.hpp"
 #include "Frame.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Pager.hpp"
 #include "Path.hpp"
 #include "SQLite.h"

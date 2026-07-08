@@ -24,8 +24,8 @@
 
 #pragma once
 
-#include "..\platform\CrossPlatform.h"
-#include "..\platform\SysTypes.h"
+#include "../platform/CrossPlatform.h"
+#include "../platform/SysTypes.h"
 
 namespace WCDB {
 

@@ -23,7 +23,7 @@
  */
 
 #include "ObjectBridge.hpp"
-#include "..\..\common\base\Assertion.hpp"
+#include "../../common/base/Assertion.hpp"
 
 WCDBReleaseSwiftObject g_releaseSwiftObject = nullptr;
 

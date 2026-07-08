@@ -23,10 +23,10 @@
  */
 
 #include "Shm.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
 #include "FileManager.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Path.hpp"
 #include "Serialization.hpp"
 #include "StringView.hpp"

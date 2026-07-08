@@ -25,7 +25,7 @@
 #pragma once
 
 #include "CaseInsensitiveList.hpp"
-#include "..\WINQ.h"
+#include "../WINQ.h"
 
 namespace WCDB {
 

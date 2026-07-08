@@ -23,7 +23,7 @@
  */
 
 #include "Assemble.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "Cell.hpp"
 
 namespace WCDB {

@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "..\base\Assertion.hpp"
+#include "../base/Assertion.hpp"
 #include "Exiting.hpp"
 #include "Time.hpp"
 #include "UniqueList.hpp"

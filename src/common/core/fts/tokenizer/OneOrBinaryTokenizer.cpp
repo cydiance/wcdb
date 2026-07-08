@@ -23,7 +23,7 @@
  */
 
 #include "OneOrBinaryTokenizer.hpp"
-#include "..\..\..\base\Assertion.hpp"
+#include "../../../base/Assertion.hpp"
 #include "FTSConst.h"
 #include "FTSError.hpp"
 #include <algorithm>

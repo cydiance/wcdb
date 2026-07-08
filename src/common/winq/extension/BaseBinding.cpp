@@ -23,12 +23,12 @@
  */
 
 #include "BaseBinding.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CompressionConst.hpp"
 #include "DecorativeHandle.hpp"
-#include "..\..\core\InnerHandle.hpp"
+#include "../../core/InnerHandle.hpp"
 #include "MigratingHandleDecorator.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "WCDBError.hpp"
 #include <algorithm>
 #include <string>

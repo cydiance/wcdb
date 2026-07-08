@@ -23,14 +23,14 @@
  */
 
 #include "CompressingStatementDecorator.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CommonCore.hpp"
 #include "CompressionCenter.hpp"
 #include "CompressionConst.hpp"
 #include "CompressionRecord.hpp"
-#include "..\InnerHandle.hpp"
+#include "../InnerHandle.hpp"
 #include "StringView.hpp"
-#include "..\..\winq\WINQ.h"
+#include "../../winq/WINQ.h"
 #include <algorithm>
 
 namespace WCDB {

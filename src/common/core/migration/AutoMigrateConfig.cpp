@@ -23,8 +23,8 @@
  */
 
 #include "AutoMigrateConfig.hpp"
-#include "..\..\base\Assertion.hpp"
-#include "..\InnerHandle.hpp"
+#include "../../base/Assertion.hpp"
+#include "../InnerHandle.hpp"
 
 namespace WCDB {
 

@@ -23,12 +23,12 @@
  */
 
 #include "FactoryRenewer.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
 #include "Factory.hpp"
 #include "FactoryBackup.hpp"
 #include "FileManager.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Path.hpp"
 
 namespace WCDB {

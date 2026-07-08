@@ -23,7 +23,7 @@
  */
 
 #pragma once
-#include "..\..\platform\SysTypes.h"
+#include "../../platform/SysTypes.h"
 
 namespace WCDB {
 

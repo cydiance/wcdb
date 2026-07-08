@@ -23,13 +23,13 @@
  */
 
 #include "Backup.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "Cell.hpp"
 #include "CoreConst.h"
 #include "Factory.hpp"
 #include "FileManager.hpp"
 #include "MasterItem.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Page.hpp"
 #include "SequenceItem.hpp"
 #include "StringView.hpp"

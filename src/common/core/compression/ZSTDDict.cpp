@@ -23,8 +23,8 @@
  */
 
 #include "ZSTDDict.hpp"
-#include "..\..\base\Assertion.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Assertion.hpp"
+#include "../../base/Notifier.hpp"
 #include "WCDBError.hpp"
 #include <stdlib.h>
 #if defined(WCDB_ZSTD) && WCDB_ZSTD

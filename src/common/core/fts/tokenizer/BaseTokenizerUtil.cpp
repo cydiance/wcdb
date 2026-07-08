@@ -23,7 +23,7 @@
  */
 
 #include "BaseTokenizerUtil.hpp"
-#include "..\..\..\base\Assertion.hpp"
+#include "../../../base/Assertion.hpp"
 #include "FTSError.hpp"
 
 namespace WCDB {

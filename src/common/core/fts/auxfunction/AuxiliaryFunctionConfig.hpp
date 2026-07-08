@@ -25,9 +25,9 @@
 #pragma once
 
 #include "AuxiliaryFunctionModule.hpp"
-#include "..\..\config\Config.hpp"
+#include "../../config/Config.hpp"
 #include "FunctionModules.hpp"
-#include "..\..\..\winq\WINQ.h"
+#include "../../../winq/WINQ.h"
 
 namespace WCDB {
 

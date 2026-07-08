@@ -23,7 +23,7 @@
  */
 
 #include "HandleCounter.hpp"
-#include "..\base\Assertion.hpp"
+#include "../base/Assertion.hpp"
 #include <condition_variable>
 
 namespace WCDB {

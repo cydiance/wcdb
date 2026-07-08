@@ -23,9 +23,9 @@
  */
 
 #include "InnerDatabase.hpp"
-#include "..\base\Assertion.hpp"
+#include "../base/Assertion.hpp"
 #include "FileManager.hpp"
-#include "..\base\Notifier.hpp"
+#include "../base/Notifier.hpp"
 #include "Path.hpp"
 #include "RepairKit.h"
 #include "StringView.hpp"

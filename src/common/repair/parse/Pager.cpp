@@ -23,10 +23,10 @@
  */
 
 #include "Pager.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
 #include "FileManager.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "SQLite.h"
 #include "Serialization.hpp"
 #include "StringView.hpp"

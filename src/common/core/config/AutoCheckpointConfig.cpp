@@ -23,9 +23,9 @@
  */
 
 #include "AutoCheckpointConfig.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "Global.hpp"
-#include "..\InnerHandle.hpp"
+#include "../InnerHandle.hpp"
 #include "StatementPragma.hpp"
 #include "StringView.hpp"
 #include <regex>

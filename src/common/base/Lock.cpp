@@ -24,7 +24,7 @@
 
 #include "Lock.hpp"
 #include "Assertion.hpp"
-#include "..\platform\CrossPlatform.h"
+#include "../platform/CrossPlatform.h"
 #include <condition_variable>
 
 namespace WCDB {

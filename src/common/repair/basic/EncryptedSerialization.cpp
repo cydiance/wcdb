@@ -23,10 +23,10 @@
  */
 
 #include "EncryptedSerialization.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "FileHandle.hpp"
 #include "FileManager.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "SQLite.h"
 #include <string.h>
 

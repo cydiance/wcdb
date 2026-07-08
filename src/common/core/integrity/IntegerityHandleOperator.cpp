@@ -23,9 +23,9 @@
  */
 
 #include "IntegerityHandleOperator.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CoreConst.h"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 
 namespace WCDB {
 

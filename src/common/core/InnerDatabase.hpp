@@ -32,7 +32,7 @@
 #include "Migration.hpp"
 #include "Tag.hpp"
 #include "ThreadLocal.hpp"
-#include "..\winq\WINQ.h"
+#include "../winq/WINQ.h"
 
 namespace WCDB {
 

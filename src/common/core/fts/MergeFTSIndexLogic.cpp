@@ -23,10 +23,10 @@
  */
 
 #include "MergeFTSIndexLogic.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CommonCore.hpp"
 #include "CoreConst.h"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "WCDBError.hpp"
 #include <cmath>
 

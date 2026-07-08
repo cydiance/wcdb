@@ -24,17 +24,17 @@
 
 #include "HandleStatement.hpp"
 #include "AbstractHandle.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "BaseBinding.hpp"
 #include "CommonCore.hpp"
 #include "CompressingHandleDecorator.hpp"
 #include "CompressionConst.hpp"
 #include "DecorativeHandle.hpp"
-#include "..\InnerHandle.hpp"
+#include "../InnerHandle.hpp"
 #include "MigratingHandleDecorator.hpp"
 #include "MigrationInfo.hpp"
 #include "SQLite.h"
-#include "..\..\winq\WINQ.h"
+#include "../../winq/WINQ.h"
 #include <iomanip>
 #include <string.h>
 

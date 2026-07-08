@@ -23,7 +23,7 @@
  */
 
 #include "Fraction.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 
 namespace WCDB {
 

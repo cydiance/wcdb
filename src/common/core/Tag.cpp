@@ -23,7 +23,7 @@
  */
 
 #include "Tag.hpp"
-#include "..\base\Assertion.hpp"
+#include "../base/Assertion.hpp"
 #include "CoreConst.h"
 
 namespace WCDB {

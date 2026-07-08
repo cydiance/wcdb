@@ -25,8 +25,8 @@
 #if WCDB_USE_BUILTIN_SQLITE_REPAIR
 
 #include "SQLiteBase.hpp"
-#include "..\..\base\Assertion.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Assertion.hpp"
+#include "../../base/Notifier.hpp"
 #include "SQLite.h"
 #include "StringView.hpp"
 #include <sstream>

@@ -23,7 +23,7 @@
  */
 
 #include "UpgradeableErrorProne.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "ThreadedErrors.hpp"
 
 namespace WCDB {

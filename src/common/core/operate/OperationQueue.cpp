@@ -23,13 +23,13 @@
  */
 
 #include "OperationQueue.hpp"
-#include "..\..\base\Assertion.hpp"
+#include "../../base/Assertion.hpp"
 #include "CommonCore.hpp"
 #include "CoreConst.h"
-#include "..\..\platform\CrossPlatform.h"
+#include "../../platform/CrossPlatform.h"
 #include "FileManager.hpp"
 #include "Global.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include <fcntl.h>
 
 namespace WCDB {

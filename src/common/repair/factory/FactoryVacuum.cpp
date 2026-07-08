@@ -27,7 +27,7 @@
 #include "Factory.hpp"
 #include "FileManager.hpp"
 #include "FullCrawler.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Notifier.hpp"
 #include "Path.hpp"
 
 namespace WCDB {

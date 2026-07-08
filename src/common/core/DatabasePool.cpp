@@ -23,7 +23,7 @@
  */
 
 #include "DatabasePool.hpp"
-#include "..\base\Assertion.hpp"
+#include "../base/Assertion.hpp"
 
 namespace WCDB {
 

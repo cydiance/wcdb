@@ -23,9 +23,9 @@
  */
 
 #include "CompressionCenter.hpp"
-#include "..\..\base\Assertion.hpp"
-#include "..\InnerHandle.hpp"
-#include "..\..\base\Notifier.hpp"
+#include "../../base/Assertion.hpp"
+#include "../InnerHandle.hpp"
+#include "../../base/Notifier.hpp"
 #include "ScalarFunctionModule.hpp"
 #include "WCDBError.hpp"
 #include <string.h>

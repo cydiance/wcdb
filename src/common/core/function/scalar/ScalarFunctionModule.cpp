@@ -23,7 +23,7 @@
  */
 
 #include "ScalarFunctionModule.hpp"
-#include "..\..\..\base\Assertion.hpp"
+#include "../../../base/Assertion.hpp"
 #include "SQLite.h"
 
 namespace WCDB {

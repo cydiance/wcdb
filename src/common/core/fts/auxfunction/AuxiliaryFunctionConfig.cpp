@@ -23,8 +23,8 @@
  */
 
 #include "AuxiliaryFunctionConfig.hpp"
-#include "..\..\..\base\Assertion.hpp"
-#include "..\..\InnerHandle.hpp"
+#include "../../../base/Assertion.hpp"
+#include "../../InnerHandle.hpp"
 #include "SQLite.h"
 
 namespace WCDB {
