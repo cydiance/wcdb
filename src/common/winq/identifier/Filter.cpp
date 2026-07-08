@@ -23,6 +23,8 @@
  */
 
 #include "../WINQ.h"
+#include "Expression.hpp"
+#include "Filter.hpp"
 
 namespace WCDB {
 
