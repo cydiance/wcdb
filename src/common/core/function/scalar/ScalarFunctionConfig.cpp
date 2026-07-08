@@ -23,9 +23,9 @@
  */
 
 #include "ScalarFunctionConfig.hpp"
-#include "Assertion.hpp"
-#include "InnerHandle.hpp"
-#include "Notifier.hpp"
+#include "../../../base/Assertion.hpp"
+#include "../../InnerHandle.hpp"
+#include "../../../base/Notifier.hpp"
 #include "SQLite.h"
 
 namespace WCDB {

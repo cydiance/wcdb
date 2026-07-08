@@ -22,10 +22,10 @@
  * limitations under the License.
  */
 
-#include "Config.hpp"
-#include "FunctionModules.hpp"
+#include "../../config/Config.hpp"
+#include "../FunctionModules.hpp"
 #include "ScalarFunctionModule.hpp"
-#include "WINQ.h"
+#include "../../../winq/WINQ.h"
 
 namespace WCDB {
 
