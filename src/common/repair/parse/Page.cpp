@@ -26,7 +26,7 @@
 #include "../../base/Assertion.hpp"
 #include "Cell.hpp"
 #include "Pager.hpp"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 
 namespace WCDB {

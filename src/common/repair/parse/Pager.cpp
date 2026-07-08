@@ -28,7 +28,7 @@
 #include "FileManager.hpp"
 #include "../../base/Notifier.hpp"
 #include "SQLite.h"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 #include "ThreadedErrors.hpp"
 #include <cstring>

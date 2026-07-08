@@ -28,7 +28,7 @@
 #include "FileManager.hpp"
 #include "../../base/Notifier.hpp"
 #include "Path.hpp"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 #include "Wal.hpp"
 #include <cstring>

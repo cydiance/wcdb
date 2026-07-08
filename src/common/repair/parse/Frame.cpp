@@ -24,7 +24,7 @@
 
 #include "Frame.hpp"
 #include "../../base/Assertion.hpp"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 #include "Wal.hpp"
 

@@ -26,7 +26,7 @@
 #include "../../base/Assertion.hpp"
 #include "Page.hpp"
 #include "Pager.hpp"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 #include <cstring>
 #include <set>
