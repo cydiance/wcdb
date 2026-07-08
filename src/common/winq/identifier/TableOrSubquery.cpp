@@ -23,6 +23,7 @@
  */
 
 #include "../WINQ.h"
+#include "Join.hpp"
 
 namespace WCDB {
 
