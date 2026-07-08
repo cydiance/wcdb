@@ -95,7 +95,7 @@ TableOrSubquery::TableOrSubquery(const TablesOrSubqueries& tableOrSubqueries)
 TableOrSubquery::TableOrSubquery(const Join& join)
 {
     syntax().switcher = SyntaxType::Switch::JoinClause;
-    syntax().joinClause = join;
+    syntax().joinClause = join.syntax();
 }
 
 TableOrSubquery::TableOrSubquery(const StatementSelect& select)
