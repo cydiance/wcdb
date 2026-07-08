@@ -23,6 +23,11 @@
  */
 
 #include "../WINQ.h"
+#include "Column.hpp"
+#include "Expression.hpp"
+#include "Join.hpp"
+#include "JoinConstraint.hpp"
+#include "TableOrSubquery.hpp"
 
 namespace WCDB {
 
