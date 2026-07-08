@@ -23,8 +23,8 @@
  */
 
 #include "AutoMergeFTSIndexConfig.hpp"
-#include "Assertion.hpp"
-#include "InnerHandle.hpp"
+#include "..\..\base\Assertion.hpp"
+#include "..\InnerHandle.hpp"
 #include "StringView.hpp"
 
 namespace WCDB {

@@ -23,7 +23,7 @@
  */
 
 #include "SubstringMatchInfo.hpp"
-#include "Assertion.hpp"
+#include "..\..\..\base\Assertion.hpp"
 #include <cstring>
 
 namespace WCDB {

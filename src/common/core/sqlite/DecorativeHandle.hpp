@@ -27,7 +27,7 @@
 #include "ClassDecorator.hpp"
 #include "DecorativeHandleStatement.hpp"
 #include "HandleOperator.hpp"
-#include "InnerHandle.hpp"
+#include "..\InnerHandle.hpp"
 
 namespace WCDB {
 

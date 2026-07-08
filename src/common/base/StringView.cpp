@@ -24,7 +24,7 @@
 
 #include "StringView.hpp"
 #include "Assertion.hpp"
-#include "CrossPlatform.h"
+#include "..\platform\CrossPlatform.h"
 #include "Macro.h"
 #include "UnsafeData.hpp"
 #ifdef _WIN32

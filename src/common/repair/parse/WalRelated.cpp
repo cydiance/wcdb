@@ -23,7 +23,7 @@
  */
 
 #include "WalRelated.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "Pager.hpp"
 
 namespace WCDB {

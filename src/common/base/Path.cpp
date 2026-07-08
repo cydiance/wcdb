@@ -25,7 +25,7 @@
 #include "Path.hpp"
 #include "Assertion.hpp"
 #include "CommonCore.hpp"
-#include "CrossPlatform.h"
+#include "..\platform\CrossPlatform.h"
 #include "FileManager.hpp"
 
 #include <errno.h>

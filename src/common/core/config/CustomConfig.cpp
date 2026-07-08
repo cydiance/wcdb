@@ -23,7 +23,7 @@
  */
 
 #include "CustomConfig.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 
 namespace WCDB {
 

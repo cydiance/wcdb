@@ -26,7 +26,7 @@
 
 #include "OperationQueue.hpp"
 
-#include "Config.hpp"
+#include "./config\Config.hpp"
 #include "Configs.hpp"
 #include "PerformanceTraceConfig.hpp"
 #include "SQLTraceConfig.hpp"
@@ -37,7 +37,7 @@
 #include "ScalarFunctionConfig.hpp"
 #include "TokenizerModules.hpp"
 
-#include "Notifier.hpp"
+#include "..\base\Notifier.hpp"
 
 namespace WCDB {
 

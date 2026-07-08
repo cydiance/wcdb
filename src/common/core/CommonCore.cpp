@@ -31,7 +31,7 @@
 #include "FTSConst.h"
 #include "FileManager.hpp"
 #include "Global.hpp"
-#include "Notifier.hpp"
+#include "..\base\Notifier.hpp"
 #include "OneOrBinaryTokenizer.hpp"
 #include "PinyinTokenizer.hpp"
 #include "SQLite.h"

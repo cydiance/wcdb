@@ -32,7 +32,7 @@
 #include "TableAttribute.hpp"
 #include "Tag.hpp"
 #include "WCDBOptional.hpp"
-#include "WINQ.h"
+#include "..\..\winq\WINQ.h"
 #include <set>
 #include <tuple>
 #include <vector>

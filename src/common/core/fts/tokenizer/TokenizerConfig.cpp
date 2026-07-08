@@ -23,7 +23,7 @@
  */
 
 #include "TokenizerConfig.hpp"
-#include "Assertion.hpp"
+#include "..\..\..\base\Assertion.hpp"
 #include "../../InnerHandle.hpp"
 #include "SQLite.h"
 #include "TokenizerModules.hpp"

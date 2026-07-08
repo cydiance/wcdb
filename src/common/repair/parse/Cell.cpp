@@ -23,7 +23,7 @@
  */
 
 #include "Cell.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "Page.hpp"
 #include "Pager.hpp"
 #include "Serialization.hpp"

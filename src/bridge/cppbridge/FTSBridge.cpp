@@ -23,7 +23,7 @@
  */
 
 #include "FTSBridge.h"
-#include "Assertion.hpp"
+#include "..\..\common\base\Assertion.hpp"
 #include "CommonCore.hpp"
 #include "CustomConfig.hpp"
 #include "FTSConst.h"

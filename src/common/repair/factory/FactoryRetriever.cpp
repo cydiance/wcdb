@@ -23,7 +23,7 @@
  */
 
 #include "FactoryRetriever.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CoreConst.h"
 #include "Data.hpp"
 #include "Factory.hpp"
@@ -32,7 +32,7 @@
 #include "FileManager.hpp"
 #include "FullCrawler.hpp"
 #include "Mechanic.hpp"
-#include "Notifier.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "Path.hpp"
 #include "SQLite.h"
 #include "ThreadedErrors.hpp"

@@ -23,7 +23,7 @@
  */
 
 #include "HandleBridge.h"
-#include "InnerHandle.hpp"
+#include "..\..\common\core\InnerHandle.hpp"
 #include "ObjectBridge.hpp"
 #include "RecyclableHandle.hpp"
 

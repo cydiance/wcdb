@@ -23,7 +23,7 @@
  */
 
 #include "SQL.hpp"
-#include "Assertion.hpp"
+#include "..\base\Assertion.hpp"
 #include <atomic>
 
 namespace WCDB {

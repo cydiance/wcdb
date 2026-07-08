@@ -23,10 +23,10 @@
  */
 
 #include "BasicConfig.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CommonCore.hpp"
 #include "CoreConst.h"
-#include "InnerHandle.hpp"
+#include "..\InnerHandle.hpp"
 #include "Macro.h"
 
 namespace WCDB {

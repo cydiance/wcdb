@@ -25,7 +25,7 @@
 #if WCDB_USE_BUILTIN_SQLITE_REPAIR
 
 #include "SQLiteLocker.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "SQLite.h"
 
 namespace WCDB {

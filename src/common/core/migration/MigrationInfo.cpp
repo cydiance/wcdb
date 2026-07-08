@@ -23,7 +23,7 @@
  */
 
 #include "MigrationInfo.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "StringView.hpp"
 
 namespace WCDB {

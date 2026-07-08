@@ -26,7 +26,7 @@
 
 #include "Lock.hpp"
 #include "StringView.hpp"
-#include "WINQ.h"
+#include "..\..\winq\WINQ.h"
 #include <set>
 
 namespace WCDB {

@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "Config.hpp"
+#include "..\config\Config.hpp"
 #include "Lock.hpp"
 #include "StringView.hpp"
 #include <map>

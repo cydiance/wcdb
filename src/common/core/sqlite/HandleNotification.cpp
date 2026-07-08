@@ -24,7 +24,7 @@
 
 #include "HandleNotification.hpp"
 #include "AbstractHandle.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "SQLite.h"
 #include "StringView.hpp"
 

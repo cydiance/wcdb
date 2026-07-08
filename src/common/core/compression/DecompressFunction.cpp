@@ -23,7 +23,7 @@
  */
 
 #include "DecompressFunction.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CompressionCenter.hpp"
 #include "CompressionConst.hpp"
 #include "WCDBError.hpp"

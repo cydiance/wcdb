@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "CrossPlatform.h"
+#include "..\platform\CrossPlatform.h"
 #include "Lock.hpp"
 
 namespace WCDB {

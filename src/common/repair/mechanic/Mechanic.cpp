@@ -23,9 +23,9 @@
  */
 
 #include "Mechanic.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CoreConst.h"
-#include "Notifier.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "Page.hpp"
 #include "StringView.hpp"
 

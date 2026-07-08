@@ -24,7 +24,7 @@
 
 #include "Factory.hpp"
 #include "Assemble.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "FileManager.hpp"
 #include "Material.hpp"
 #include "Path.hpp"

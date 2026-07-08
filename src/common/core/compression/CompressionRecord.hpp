@@ -25,7 +25,7 @@
 #pragma once
 
 #include "StringView.hpp"
-#include "WINQ.h"
+#include "..\..\winq\WINQ.h"
 
 namespace WCDB {
 

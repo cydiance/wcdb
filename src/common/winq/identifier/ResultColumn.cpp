@@ -22,8 +22,8 @@
  * limitations under the License.
  */
 
-#include "Assertion.hpp"
-#include "WINQ.h"
+#include "..\..\base\Assertion.hpp"
+#include "..\WINQ.h"
 
 namespace WCDB {
 

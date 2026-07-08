@@ -23,10 +23,10 @@
  */
 
 #include "ErrorBridge.h"
-#include "Assertion.hpp"
+#include "..\..\common\base\Assertion.hpp"
 #include "CoreConst.h"
 #include "ErrorProne.hpp"
-#include "Notifier.hpp"
+#include "..\..\common\base\Notifier.hpp"
 #include "ObjectBridge.hpp"
 
 long WCDBErrorGetCode(CPPError error)

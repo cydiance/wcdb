@@ -25,7 +25,7 @@
 #include "WCDBError.hpp"
 #include "Assertion.hpp"
 #include "CoreConst.h"
-#include "CrossPlatform.h"
+#include "..\platform\CrossPlatform.h"
 #include "SQLite.h"
 #include "StringView.hpp"
 #include <cstring>

@@ -23,11 +23,11 @@
  */
 
 #include "Repairman.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "Cell.hpp"
 #include "CoreConst.h"
 #include "FileManager.hpp"
-#include "Notifier.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "Page.hpp"
 #include "ThreadedErrors.hpp"
 

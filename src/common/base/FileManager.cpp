@@ -39,7 +39,7 @@
 #include <direct.h>
 #include <windows.h>
 #endif
-#include "CrossPlatform.h"
+#include "..\platform\CrossPlatform.h"
 
 #ifndef O_BINARY
 #define O_BINARY 0

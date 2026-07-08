@@ -22,7 +22,7 @@
  * limitations under the License.
  */
 
-#include "Config.hpp"
+#include "..\config\Config.hpp"
 #include "Lock.hpp"
 
 #include <vector>

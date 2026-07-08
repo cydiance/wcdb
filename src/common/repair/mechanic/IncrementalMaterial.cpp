@@ -23,12 +23,12 @@
  */
 
 #include "IncrementalMaterial.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CoreConst.h"
 #include "Data.hpp"
 #include "FileHandle.hpp"
 #include "FileManager.hpp"
-#include "Notifier.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "SQLite.h"
 #include "Serialization.hpp"
 #include "WCDBError.hpp"

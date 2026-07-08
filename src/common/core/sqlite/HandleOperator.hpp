@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "InnerHandle.hpp"
+#include "..\InnerHandle.hpp"
 
 namespace WCDB {
 

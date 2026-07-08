@@ -23,7 +23,7 @@
  */
 
 #include "TokenizerModule.hpp"
-#include "Assertion.hpp"
+#include "..\..\..\base\Assertion.hpp"
 #include "SQLite.h"
 #include "SQLiteFTS3Tokenizer.h"
 #include <cstring>

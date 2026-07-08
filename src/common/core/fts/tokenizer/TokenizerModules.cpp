@@ -23,7 +23,7 @@
  */
 
 #include "TokenizerModules.hpp"
-#include "Assertion.hpp"
+#include "..\..\..\base\Assertion.hpp"
 #include "SQLiteFTS3Tokenizer.h"
 #include "WCDBError.hpp"
 

@@ -24,7 +24,7 @@
 
 #include "VacuumHandleOperator.hpp"
 #include "CoreConst.h"
-#include "WINQ.h"
+#include "..\..\winq\WINQ.h"
 
 namespace WCDB {
 

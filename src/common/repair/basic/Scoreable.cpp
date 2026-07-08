@@ -23,7 +23,7 @@
  */
 
 #include "Scoreable.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "Console.hpp"
 #include <cmath>
 

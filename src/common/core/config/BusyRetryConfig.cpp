@@ -23,9 +23,9 @@
  */
 
 #include "BusyRetryConfig.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CoreConst.h"
-#include "InnerHandle.hpp"
+#include "..\InnerHandle.hpp"
 #include "Time.hpp"
 
 namespace WCDB {

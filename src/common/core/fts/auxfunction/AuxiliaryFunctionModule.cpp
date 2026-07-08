@@ -23,7 +23,7 @@
  */
 
 #include "AuxiliaryFunctionModule.hpp"
-#include "Assertion.hpp"
+#include "..\..\..\base\Assertion.hpp"
 #include "SQLite.h"
 
 namespace WCDB {

@@ -33,7 +33,7 @@
 #include "AuxiliaryFunctionConfig.hpp"
 #include "BasicConfig.hpp"
 #include "CipherConfig.hpp"
-#include "Config.hpp"
+#include "./config\Config.hpp"
 #include "Configs.hpp"
 #include "CustomConfig.hpp"
 #include "PerformanceTraceConfig.hpp"

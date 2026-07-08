@@ -23,10 +23,10 @@
  */
 
 #include "AsyncQueue.hpp"
-#include "Assertion.hpp"
+#include "..\base\Assertion.hpp"
 #include "CoreConst.h"
 #include "Exiting.hpp"
-#include "Notifier.hpp"
+#include "..\base\Notifier.hpp"
 #include "StringView.hpp"
 #include "WCDBError.hpp"
 #include <atomic>

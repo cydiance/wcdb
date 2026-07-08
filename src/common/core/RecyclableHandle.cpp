@@ -23,7 +23,7 @@
  */
 
 #include "RecyclableHandle.hpp"
-#include "Assertion.hpp"
+#include "..\base\Assertion.hpp"
 #include "DecorativeHandle.hpp"
 
 namespace WCDB {

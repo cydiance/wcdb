@@ -23,7 +23,7 @@
  */
 
 #include "FTSConst.h"
-#include "WINQ.h"
+#include "..\WINQ.h"
 
 namespace WCDB {
 

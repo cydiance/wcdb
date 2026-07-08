@@ -23,7 +23,7 @@
  */
 
 #include "InnerHandle.hpp"
-#include "Assertion.hpp"
+#include "..\base\Assertion.hpp"
 #include "BusyRetryConfig.hpp"
 #include "CipherConfig.hpp"
 #include "CoreConst.h"

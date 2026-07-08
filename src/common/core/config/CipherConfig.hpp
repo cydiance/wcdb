@@ -27,7 +27,7 @@
 #include "Config.hpp"
 #include "Data.hpp"
 #include "Lock.hpp"
-#include "WINQ.h"
+#include "..\..\winq\WINQ.h"
 
 namespace WCDB {
 

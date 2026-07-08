@@ -23,7 +23,7 @@
  */
 
 #include "MigrateHandleOperator.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CoreConst.h"
 #include "Time.hpp"
 #include <cmath>

@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 
 #define WCTSyntaxRemedialAssert(cond)                                          \
     WCTRemedialAssert(cond, "Invalid syntax detected.", return false;)

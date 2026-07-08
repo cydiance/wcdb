@@ -23,12 +23,12 @@
  */
 
 #include "CompressHandleOperator.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CompressionCenter.hpp"
 #include "CompressionConst.hpp"
 #include "CompressionRecord.hpp"
 #include "CoreConst.h"
-#include "Notifier.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "Time.hpp"
 #include <stdlib.h>
 #include <string.h>

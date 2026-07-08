@@ -23,11 +23,11 @@
  */
 
 #include "Compression.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "CompressionConst.hpp"
 #include "CompressionRecord.hpp"
-#include "InnerHandle.hpp"
-#include "Notifier.hpp"
+#include "..\InnerHandle.hpp"
+#include "..\..\base\Notifier.hpp"
 #include "WCDBError.hpp"
 
 namespace WCDB {

@@ -25,7 +25,7 @@
 #import "CoreConst.h"
 #import "../../common/utility/Enum.hpp"
 #import "FileManager.hpp"
-#import "Notifier.hpp"
+#import "..\..\common\base\Notifier.hpp"
 #import "StringView.hpp"
 #import "ThreadedErrors.hpp"
 #import "WCDBError.hpp"

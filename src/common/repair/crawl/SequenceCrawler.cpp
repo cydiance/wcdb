@@ -23,7 +23,7 @@
  */
 
 #include "SequenceCrawler.hpp"
-#include "Assertion.hpp"
+#include "..\..\base\Assertion.hpp"
 #include "Cell.hpp"
 #include "Page.hpp"
 #include "SequenceItem.hpp"

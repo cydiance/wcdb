@@ -28,7 +28,7 @@
 
 #import "WCTOptional.h"
 #import "WCTTag.h"
-#import "WINQ.h"
+#import "..\..\common\winq\WINQ.h"
 
 #endif // __cplusplus
 

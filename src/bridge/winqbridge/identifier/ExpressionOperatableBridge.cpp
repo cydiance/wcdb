@@ -23,7 +23,7 @@
  */
 
 #include "ExpressionOperatableBridge.h"
-#include "Assertion.hpp"
+#include "..\..\..\common\base\Assertion.hpp"
 #include "BindParameter.hpp"
 #include "Column.hpp"
 #include "Expression.hpp"

@@ -23,7 +23,7 @@
  */
 
 #include "BindingBridge.h"
-#include "Assertion.hpp"
+#include "..\..\common\base\Assertion.hpp"
 #include "BaseBinding.hpp"
 #include "ObjectBridge.hpp"
 

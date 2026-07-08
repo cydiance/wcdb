@@ -22,7 +22,7 @@
  * limitations under the License.
  */
 
-#import "WINQ.h"
+#import "..\..\common\winq\WINQ.h"
 #import <Foundation/Foundation.h>
 
 class WCTProperty;
