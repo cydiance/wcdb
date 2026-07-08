@@ -31,7 +31,7 @@
 #include "Pager.hpp"
 #include "Path.hpp"
 #include "SQLite.h"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "StringView.hpp"
 
 namespace WCDB {

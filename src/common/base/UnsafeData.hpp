@@ -26,7 +26,7 @@
 
 #include "Recyclable.hpp"
 #include "SharedThreadedErrorProne.hpp"
-#include "SysTypes.h"
+#include "../platform/SysTypes.h"
 #include <memory>
 #include <stdio.h>
 #include <stdlib.h>

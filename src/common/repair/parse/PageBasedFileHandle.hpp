@@ -27,7 +27,7 @@
 #include "FileHandle.hpp"
 #include "LRUCache.hpp"
 #include "MappedData.hpp"
-#include "Range.hpp"
+#include "../../base/Range.hpp"
 
 namespace WCDB {
 

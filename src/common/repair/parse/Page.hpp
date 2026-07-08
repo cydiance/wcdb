@@ -27,7 +27,7 @@
 #include "Initializeable.hpp"
 #include "MappedData.hpp"
 #include "PagerRelated.hpp"
-#include "Serialization.hpp"
+#include "../../base/Serialization.hpp"
 #include "WCDBOptional.hpp"
 
 namespace WCDB {

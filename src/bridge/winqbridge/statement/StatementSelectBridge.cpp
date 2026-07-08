@@ -23,17 +23,17 @@
  */
 
 #include "StatementSelectBridge.h"
-#include "Column.hpp"
-#include "CommonTableExpression.hpp"
-#include "Expression.hpp"
-#include "Join.hpp"
-#include "LiteralValue.hpp"
-#include "OrderingTerm.hpp"
-#include "ResultColumn.hpp"
-#include "StatementSelect.hpp"
-#include "TableOrSubquery.hpp"
-#include "WindowDef.hpp"
-#include "WinqBridge.hpp"
+#include "../../../common/winq/identifier/Column.hpp"
+#include "../../../common/winq/identifier/CommonTableExpression.hpp"
+#include "../../../common/winq/identifier/Expression.hpp"
+#include "../../../common/winq/identifier/Join.hpp"
+#include "../../../common/winq/identifier/LiteralValue.hpp"
+#include "../../../common/winq/identifier/OrderingTerm.hpp"
+#include "../../../common/winq/identifier/ResultColumn.hpp"
+#include "../../../common/winq/statement/StatementSelect.hpp"
+#include "../../../common/winq/identifier/TableOrSubquery.hpp"
+#include "../../../common/winq/identifier/WindowDef.hpp"
+#include "../WinqBridge.hpp"
 
 CPPStatementSelect WCDBStatementSelectCreate()
 {
@@ -176,8 +176,9 @@ void WCDBStatementSelectConfigFromTableOrSubqueries2(CPPStatementSelect select,
             intIndex++;
         } break;
         case WCDBBridgedType_JoinClause: {
-            cppTableOrSubqueries.emplace_back(WCDBGetMultiTypeArrayObject(
-            WCDB::Join, tableOrSubqueries, intIndex));
+            WCDB::Join& cppJoin = WCDBGetMultiTypeArrayObject(
+            WCDB::Join, tableOrSubqueries, intIndex);
+            cppTableOrSubqueries.push_back(WCDB::TableOrSubquery(cppJoin));
             intIndex++;
         } break;
         default:

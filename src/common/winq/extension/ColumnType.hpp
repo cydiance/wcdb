@@ -24,9 +24,9 @@
 
 #pragma once
 
-#include "Data.hpp"
-#include "StringView.hpp"
-#include "Syntax.h"
+#include "../../base/Data.hpp"
+#include "../../base/StringView.hpp"
+#include "../syntax/Syntax.h"
 #include "SyntaxForwardDeclaration.h"
 #include <cstdint>
 #include <type_traits>

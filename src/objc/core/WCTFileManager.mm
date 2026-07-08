@@ -23,7 +23,7 @@
  */
 
 #import "CoreConst.h"
-#import "Enum.hpp"
+#import "../../common/utility/Enum.hpp"
 #import "FileManager.hpp"
 #import "Notifier.hpp"
 #import "StringView.hpp"

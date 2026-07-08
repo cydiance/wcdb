@@ -25,7 +25,7 @@
 #pragma once
 
 #include "Macro.h"
-#include "SysTypes.h"
+#include "../platform/SysTypes.h"
 #include <atomic>
 #include <limits>
 #include <map>

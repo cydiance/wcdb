@@ -23,13 +23,13 @@
  */
 
 #include "TableOrSubqueryBridge.h"
-#include "Expression.hpp"
-#include "Join.hpp"
-#include "ObjectBridge.hpp"
-#include "Schema.hpp"
-#include "StatementSelect.hpp"
-#include "TableOrSubquery.hpp"
-#include "WinqBridge.hpp"
+#include "../../../common/winq/identifier/Expression.hpp"
+#include "../../../common/winq/identifier/Join.hpp"
+#include "../../base/ObjectBridge.hpp"
+#include "../../../common/winq/identifier/Schema.hpp"
+#include "../../../common/winq/statement/StatementSelect.hpp"
+#include "../../../common/winq/identifier/TableOrSubquery.hpp"
+#include "../WinqBridge.hpp"
 
 CPPTableOrSubquery WCDBTableOrSubqueryCreate(CPPCommonValue value)
 {
@@ -48,7 +48,7 @@ CPPTableOrSubquery WCDBTableOrSubqueryCreate(CPPCommonValue value)
         WCDBGetBridgedData(WCDB::StatementSelect, value));
     } else if (value.type == WCDBBridgedType_JoinClause) {
         return WCDBCreateCPPBridgedObjectWithParameters(
-        CPPTableOrSubquery, WCDB::TableOrSubquery, WCDBGetBridgedData(WCDB::Join, value));
+        CPPTableOrSubquery, WCDB::TableOrSubquery, WCDB::TableOrSubquery(WCDBGetBridgedData(WCDB::Join, value)));
     } else {
         assert(value.type == WCDBBridgedType_Null);
     }
@@ -71,7 +71,7 @@ CPPTableOrSubquery WCDBTableOrSubqueryCreateWithJoin(CPPJoin join)
 {
     WCDBGetObjectOrReturnValue(join, WCDB::Join, cppJoin, CPPTableOrSubquery());
     return WCDBCreateCPPBridgedObjectWithParameters(
-    CPPTableOrSubquery, WCDB::TableOrSubquery, *cppJoin);
+    CPPTableOrSubquery, WCDB::TableOrSubquery, WCDB::TableOrSubquery(*cppJoin));
 }
 
 CPPTableOrSubquery WCDBTableOrSubqueryCreateWithSelection(CPPStatementSelect select)
@@ -106,7 +106,7 @@ WCDBTableOrSubqueryCreateWithTableOrSubqueries2(CPPCommonArray tableOrSubqueries
             break;
         case WCDBBridgedType_JoinClause:
             cppTableOrSubqueries.emplace_back(
-            WCDBGetCommonArrayObject(WCDB::Join, tableOrSubqueries, i));
+            WCDB::TableOrSubquery(WCDBGetCommonArrayObject(WCDB::Join, tableOrSubqueries, i)));
             break;
         default:
             assert(0);
